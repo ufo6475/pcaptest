@@ -148,7 +148,6 @@ int main(int argc, char* argv[]) {
 			}
 		}
 		printf("No: %d\n",no++);
-		printf("%u bytes captured\n", header->caplen);
 		printf("Source MAC: %02X:%02X:%02X:%02X:%02X:%02X\n",neth.src_MAC[0],neth.src_MAC[1],neth.src_MAC[2],neth.src_MAC[3],neth.src_MAC[4],neth.src_MAC[5]);
 		printf("Destication MAC: %02X:%02X:%02X:%02X:%02X:%02X\n",neth.dst_MAC[0],neth.dst_MAC[1],neth.dst_MAC[2],neth.dst_MAC[3],neth.dst_MAC[4],neth.dst_MAC[5]);
 		printf("Source IP : %d.%d.%d.%d\n",nIP.src_IP[0],nIP.src_IP[1],nIP.src_IP[2],nIP.src_IP[3]);
